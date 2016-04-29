@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D0624A0-CE4F-4B76-86B1-79CEF2C4328A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F884594F-7BB7-42CF-9DF6-B7BA5450B539}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreSpike", "src\AspNetCoreSpike\AspNetCoreSpike.xproj", "{1C108737-8D4E-4628-965D-13D54E852CB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C108737-8D4E-4628-965D-13D54E852CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C108737-8D4E-4628-965D-13D54E852CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C108737-8D4E-4628-965D-13D54E852CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C108737-8D4E-4628-965D-13D54E852CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C108737-8D4E-4628-965D-13D54E852CB9} = {4D0624A0-CE4F-4B76-86B1-79CEF2C4328A}
+	EndGlobalSection
+EndGlobal
