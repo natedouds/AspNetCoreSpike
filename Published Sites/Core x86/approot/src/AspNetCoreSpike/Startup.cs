@@ -1,6 +1,4 @@
-﻿using AspNetCoreSpike.Config;
-using AspNetCoreSpike.Data;
-using Microsoft.AspNet.Builder;
+﻿using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,13 +22,8 @@ namespace AspNetCoreSpike
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var configBuilder = new ConfigurationBuilder()
-                .AddJsonFile("configSettings.json");
-            var config = configBuilder.Build();
-            services.Configure<ConfigSettings>(config);
             // Add framework services.
             services.AddMvc();
-            services.AddSingleton<ICarCollectionData, CarCollectionData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

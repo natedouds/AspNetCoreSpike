@@ -11,23 +11,15 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/cars",
+      "launchUrl": "api/values",
       "environmentVariables": {
-        "Hosting:Environment": "Production"
+        "Hosting:Environment": "Development"
       }
     },
     "web": {
       "commandName": "web",
       "environmentVariables": {
         "Hosting:Environment": "Development"
-      }
-    },
-    "IIS Express Dev": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "api/cars",
-      "environmentVariables": {
-        "Hosting:Environment": "Dev"
       }
     }
   }
